@@ -18,7 +18,7 @@ export const CounterApp = () => {
     <div className="App">
       <div style={{backgroundColor:"WindowFrame",padding:"25px 20px",borderRadius:"20px"}}>
         <h1>Counter App</h1>
-        <p>Count : {count}</p>
+        <p>Count: {count}</p>
         <button onClick={handleIncrement}>Increment</button>
         <button onClick={handleDecrement}>Decrement</button>
       </div>
